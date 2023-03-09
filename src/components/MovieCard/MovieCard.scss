@@ -4,6 +4,11 @@
     background-color: $bg_color_primary;
     cursor:pointer; 
     padding: 10px;  
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
 }
 .card-top {
     height: 300px;
